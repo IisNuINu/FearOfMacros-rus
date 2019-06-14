@@ -1,0 +1,324 @@
+.RktIn {
+	line-height: 1.5; font-family: "Fira-Mono", monospace; font-size: 1rem; white-space: inherit;
+}
+.RktRdr {
+	line-height: 1.5; font-family: "Fira-Mono", monospace; font-size: 1rem; white-space: inherit;
+}
+.RktPn {
+	line-height: 1.5; font-family: "Fira-Mono", monospace; font-size: 1rem; white-space: inherit;
+}
+.RktMeta {
+	line-height: 1.5; font-family: "Fira-Mono", monospace; font-size: 1rem; white-space: inherit;
+}
+.RktMod {
+	line-height: 1.5; font-family: "Fira-Mono", monospace; font-size: 1rem; white-space: inherit;
+}
+.RktKw {
+	line-height: 1.5; font-family: "Fira-Mono", monospace; font-size: 1rem; white-space: inherit;
+}
+.RktVar {
+	line-height: 1.5; font-family: "Fira-Mono", monospace; font-size: 1rem; white-space: inherit;
+}
+.RktSym {
+	line-height: 1.5; font-family: "Fira-Mono", monospace; font-size: 1rem; white-space: inherit;
+}
+.RktRes {
+	line-height: 1.5; font-family: "Fira-Mono", monospace; font-size: 1rem; white-space: inherit;
+}
+.RktOut {
+	line-height: 1.5; font-family: "Fira-Mono", monospace; font-size: 1rem; white-space: inherit;
+}
+.RktCmt {
+	line-height: 1.5; font-family: "Fira-Mono", monospace; font-size: 1rem; white-space: inherit;
+}
+.RktVal {
+	line-height: 1.5; font-family: "Fira-Mono", monospace; font-size: 1rem; white-space: inherit;
+}
+.RktBlk {
+	line-height: 1.5; font-family: "Fira-Mono", monospace; font-size: 1rem; white-space: inherit;
+}
+.RktErr {
+	line-height: 1.5; font-family: "Fira-Mono", monospace; font-size: 1rem; white-space: inherit;
+}
+a.RktValDef {
+	color: black; font-size: 1.1rem; font-weight: 500;
+}
+a.RktStxDef {
+	color: black; font-size: 1.1rem; font-weight: 500;
+}
+a.RktSymDef {
+	color: black; font-size: 1.1rem; font-weight: 500;
+}
+span.RktValDef {
+	color: black; font-size: 1.1rem; font-weight: 500;
+}
+span.RktStxDef {
+	color: black; font-size: 1.1rem; font-weight: 500;
+}
+span.RktSymDef {
+	color: black; font-size: 1.1rem; font-weight: 500;
+}
+.inheritedlbl {
+	font-family: "Fira", sans-serif;
+}
+.RBackgroundLabelInner {
+	font-family: inherit;
+}
+.inherited {
+	width: 95%; text-align: left; margin-top: 0.5em; background-color: inherit;
+}
+.inherited td {
+	line-height: 1.3; text-indent: 0px; padding-right: 0px; padding-left: 0.5rem; font-size: 82%;
+}
+.inheritedlbl {
+	font-style: normal;
+}
+.RktIn {
+	color: rgb(204, 102, 51); background-color: rgb(238, 238, 238);
+}
+.RktInBG {
+	background-color: rgb(238, 238, 238);
+}
+.refcolumn .RktInBG {
+	background-color: white;
+}
+.RktRdr {
+	
+}
+.RktPn {
+	color: rgb(132, 60, 36);
+}
+.RktMeta {
+	color: black;
+}
+.RktMod {
+	color: inherit;
+}
+.RktOpt {
+	color: black;
+}
+.RktKw {
+	color: black;
+}
+.RktErr {
+	color: red; font-style: italic; font-weight: 400;
+}
+.RktVar {
+	left: -1px; color: rgb(68, 68, 68); font-style: italic; position: relative;
+}
+.SVInsetFlow .RktVar {
+	color: rgb(68, 68, 68); font-weight: 400;
+}
+.RktSym {
+	color: inherit;
+}
+.RktValLink {
+	color: rgb(0, 119, 170); font-size: 1rem; text-decoration: none;
+}
+.RktStxLink {
+	color: rgb(0, 119, 170); font-size: 1rem; text-decoration: none;
+}
+.RktModLink {
+	color: rgb(0, 119, 170); font-size: 1rem; text-decoration: none;
+}
+h2 a.RktStxLink {
+	color: rgb(51, 51, 51); font-size: 1.5rem; font-weight: 400;
+}
+h3 a.RktStxLink {
+	color: rgb(51, 51, 51); font-size: 1.5rem; font-weight: 400;
+}
+h4 a.RktStxLink {
+	color: rgb(51, 51, 51); font-size: 1.5rem; font-weight: 400;
+}
+h5 a.RktStxLink {
+	color: rgb(51, 51, 51); font-size: 1.5rem; font-weight: 400;
+}
+h2 a.RktValLink {
+	color: rgb(51, 51, 51); font-size: 1.5rem; font-weight: 400;
+}
+h3 a.RktValLink {
+	color: rgb(51, 51, 51); font-size: 1.5rem; font-weight: 400;
+}
+h4 a.RktValLink {
+	color: rgb(51, 51, 51); font-size: 1.5rem; font-weight: 400;
+}
+h5 a.RktValLink {
+	color: rgb(51, 51, 51); font-size: 1.5rem; font-weight: 400;
+}
+h2 .RktSym {
+	color: rgb(51, 51, 51); font-size: 1.5rem; font-weight: 400;
+}
+h3 .RktSym {
+	color: rgb(51, 51, 51); font-size: 1.5rem; font-weight: 400;
+}
+h4 .RktSym {
+	color: rgb(51, 51, 51); font-size: 1.5rem; font-weight: 400;
+}
+h5 .RktSym {
+	color: rgb(51, 51, 51); font-size: 1.5rem; font-weight: 400;
+}
+h2 .RktMod {
+	color: rgb(51, 51, 51); font-size: 1.5rem; font-weight: 400;
+}
+h3 .RktMod {
+	color: rgb(51, 51, 51); font-size: 1.5rem; font-weight: 400;
+}
+h4 .RktMod {
+	color: rgb(51, 51, 51); font-size: 1.5rem; font-weight: 400;
+}
+h5 .RktMod {
+	color: rgb(51, 51, 51); font-size: 1.5rem; font-weight: 400;
+}
+h2 .RktVal {
+	color: rgb(51, 51, 51); font-size: 1.5rem; font-weight: 400;
+}
+h3 .RktVal {
+	color: rgb(51, 51, 51); font-size: 1.5rem; font-weight: 400;
+}
+h4 .RktVal {
+	color: rgb(51, 51, 51); font-size: 1.5rem; font-weight: 400;
+}
+h5 .RktVal {
+	color: rgb(51, 51, 51); font-size: 1.5rem; font-weight: 400;
+}
+h2 .RktPn {
+	color: rgb(51, 51, 51); font-size: 1.5rem; font-weight: 400;
+}
+h3 .RktPn {
+	color: rgb(51, 51, 51); font-size: 1.5rem; font-weight: 400;
+}
+h4 .RktPn {
+	color: rgb(51, 51, 51); font-size: 1.5rem; font-weight: 400;
+}
+h5 .RktPn {
+	color: rgb(51, 51, 51); font-size: 1.5rem; font-weight: 400;
+}
+.toptoclink .RktStxLink {
+	color: inherit;
+}
+.toclink .RktStxLink {
+	color: inherit;
+}
+.toptoclink .RktValLink {
+	color: inherit;
+}
+.toclink .RktValLink {
+	color: inherit;
+}
+.toptoclink .RktModLink {
+	color: inherit;
+}
+.toclink .RktModLink {
+	color: inherit;
+}
+.tocset .RktValLink {
+	color: black; font-size: 0.9rem; font-weight: 400;
+}
+.tocset .RktStxLink {
+	color: black; font-size: 0.9rem; font-weight: 400;
+}
+.tocset .RktModLink {
+	color: black; font-size: 0.9rem; font-weight: 400;
+}
+.tocset .RktSym {
+	color: black; font-size: 0.9rem; font-weight: 400;
+}
+.tocset td a.tocviewselflink .RktValLink {
+	color: white; font-weight: lighter;
+}
+.tocset td a.tocviewselflink .RktStxLink {
+	color: white; font-weight: lighter;
+}
+.tocset td a.tocviewselflink .RktMod {
+	color: white; font-weight: lighter;
+}
+.tocset td a.tocviewselflink .RktSym {
+	color: white; font-weight: lighter;
+}
+.RktRes {
+	color: rgb(0, 0, 175);
+}
+.RktOut {
+	color: rgb(150, 0, 150);
+}
+.RktCmt {
+	color: rgb(194, 116, 31);
+}
+.RktVal {
+	color: rgb(34, 139, 34);
+}
+.together {
+	width: 100%; border-top-color: white; border-top-width: 2px; border-top-style: solid;
+}
+tbody > tr:first-child > td > .together {
+	border-top-color: currentColor; border-top-width: 0px; border-top-style: none;
+}
+.RktBlk {
+	text-align: left; white-space: pre;
+}
+.highlighted {
+	font-size: 1rem; background-color: rgb(255, 238, 238);
+}
+.defmodule {
+	padding: 0.25rem 0.75rem 0.25rem 0.5rem; width: 100%; font-family: "Fira-Mono", monospace; margin-bottom: 1rem; background-color: rgb(235, 240, 244);
+}
+.defmodule a {
+	color: rgb(68, 68, 68);
+}
+.defmodule td span:first-child.hspace {
+	width: 0px; display: inline-block; position: absolute;
+}
+.defmodule .RpackageSpec .Smaller {
+	font-size: 1rem;
+}
+.defmodule .RpackageSpec .stt {
+	font-size: 1rem;
+}
+.defmodule .RktPn {
+	color: inherit;
+}
+.specgrammar {
+	padding-left: 1em; float: none;
+}
+.RBibliography td {
+	padding-top: 1em; vertical-align: text-top;
+}
+.leftindent {
+	margin-right: 0em; margin-left: 2rem;
+}
+.insetpara {
+	margin-right: 1em; margin-left: 1em;
+}
+.SCodeFlow .Rfilebox {
+	margin-left: -1em;
+}
+.Rfiletitle {
+	text-align: right; background-color: rgb(238, 238, 238);
+}
+.SCodeFlow .Rfiletitle {
+	border-top-color: gray; border-right-color: gray; border-top-width: 1px; border-right-width: 1px; border-top-style: dotted; border-right-style: dotted;
+}
+.Rfilename {
+	padding-right: 0.5em; padding-left: 0.5em; border-top-color: currentColor; border-right-color: currentColor; border-top-width: 0px; border-right-width: 0px; border-top-style: none; border-right-style: none; background-color: inherit;
+}
+.Rfilecontent {
+	margin: 0.5em;
+}
+.RpackageSpec {
+	padding-right: 0px;
+}
+.RBackgroundLabel {
+	width: 0px; height: 0px; float: right;
+}
+.RBackgroundLabelInner {
+	left: -25.5em; top: 0.2rem; width: 25em; text-align: right; color: gray; font-family: "Fira-Mono", monospace; font-size: 0.9rem; font-weight: 300; position: relative; z-index: 0;
+}
+.RpackageSpec .Smaller {
+	font-family: "Fira-Mono", monospace; font-size: 0.9rem; font-weight: 300;
+}
+.RForeground {
+	left: 0px; top: 0px; position: relative; z-index: 1;
+}
+.RPartExplain {
+	background: rgb(238, 238, 238); padding: 0.2rem; text-align: left; font-size: 0.9rem; margin-top: 0.2rem;
+}

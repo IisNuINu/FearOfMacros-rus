@@ -1,0 +1,580 @@
+@import url( manual-fonts.css );
+* {
+	margin: 0px; padding: 0px;
+}
+@media all
+{
+html {
+	font-size: 15px;
+}
+}
+@media all and (max-width:940px)
+{
+html {
+	font-size: 14px;
+}
+}
+@media all and (max-width:850px)
+{
+html {
+	font-size: 13px;
+}
+}
+@media all and (max-width:830px)
+{
+html {
+	font-size: 12px;
+}
+}
+@media all and (max-width:740px)
+{
+html {
+	font-size: 11px;
+}
+}
+.maincolumn {
+	font-family: "Fira-Mono", monospace; font-size: 1rem; white-space: inherit;
+}
+.refpara {
+	font-family: "Fira-Mono", monospace; font-size: 1rem; white-space: inherit;
+}
+.refelem {
+	font-family: "Fira-Mono", monospace; font-size: 1rem; white-space: inherit;
+}
+.tocset {
+	font-family: "Fira-Mono", monospace; font-size: 1rem; white-space: inherit;
+}
+.stt {
+	font-family: "Fira-Mono", monospace; font-size: 1rem; white-space: inherit;
+}
+.hspace {
+	font-family: "Fira-Mono", monospace; font-size: 1rem; white-space: inherit;
+}
+.refparaleft {
+	font-family: "Fira-Mono", monospace; font-size: 1rem; white-space: inherit;
+}
+.refelemleft {
+	font-family: "Fira-Mono", monospace; font-size: 1rem; white-space: inherit;
+}
+h2[x-source-module='(lib "scribblings/main/start.scrbl")'] ~ table a[href='guide/index.html'] {
+	font-weight: bold;
+}
+h2[x-source-module='(lib "scribblings/main/start.scrbl")'] ~ table a[href='reference/index.html'] {
+	font-weight: bold;
+}
+h2 .stt {
+	font-size: 2.3rem; font-weight: 400;
+}
+.toptoclink .stt {
+	font-size: inherit;
+}
+.toclink .stt {
+	font-size: 90%;
+}
+.RpackageSpec .stt {
+	font-family: "Fira-Mono", monospace; font-size: 0.9rem; font-weight: 300;
+}
+h3 .stt {
+	color: rgb(51, 51, 51); font-size: 1.65rem; font-weight: 400;
+}
+h4 .stt {
+	color: rgb(51, 51, 51); font-size: 1.65rem; font-weight: 400;
+}
+h5 .stt {
+	color: rgb(51, 51, 51); font-size: 1.65rem; font-weight: 400;
+}
+.main {
+	font-family: "Charter-Racket", serif; font-size: 1.18rem;
+}
+.refcontent {
+	font-family: "Charter-Racket", serif; font-size: 1.18rem;
+}
+.tocview {
+	font-family: "Charter-Racket", serif; font-size: 1.18rem;
+}
+.tocsub {
+	font-family: "Charter-Racket", serif; font-size: 1.18rem;
+}
+.sroman {
+	font-family: "Charter-Racket", serif; font-size: 1.18rem;
+}
+i {
+	font-family: "Charter-Racket", serif; font-size: 1.18rem;
+}
+.version {
+	font-family: "Fira", sans-serif;
+}
+.versionNoNav {
+	font-family: "Fira", sans-serif;
+}
+.ssansserif {
+	font-family: "Fira", sans-serif;
+}
+.ssansserif {
+	font-family: "Fira", sans-serif; font-size: 0.9em;
+}
+.tocset .ssansserif {
+	font-size: 100%;
+}
+p {
+	margin: 0px 0px 1em; line-height: 1.4; display: block;
+}
+.SIntrapara {
+	margin: 0px 0px 1em; line-height: 1.4; display: block;
+}
+.compact {
+	padding: 0px 0px 1em;
+}
+li {
+	margin-left: 1.2em; list-style-position: outside;
+}
+h1 {
+	color: rgb(51, 51, 51); line-height: 1.25; font-family: "Fira", sans-serif; font-size: 1.6rem; font-weight: 300; margin-top: inherit; margin-bottom: 1rem;
+}
+h2 {
+	color: rgb(51, 51, 51); line-height: 1.25; font-family: "Fira", sans-serif; font-size: 1.6rem; font-weight: 300; margin-top: inherit; margin-bottom: 1rem;
+}
+h3 {
+	color: rgb(51, 51, 51); line-height: 1.25; font-family: "Fira", sans-serif; font-size: 1.6rem; font-weight: 300; margin-top: inherit; margin-bottom: 1rem;
+}
+h4 {
+	color: rgb(51, 51, 51); line-height: 1.25; font-family: "Fira", sans-serif; font-size: 1.6rem; font-weight: 300; margin-top: inherit; margin-bottom: 1rem;
+}
+h5 {
+	color: rgb(51, 51, 51); line-height: 1.25; font-family: "Fira", sans-serif; font-size: 1.6rem; font-weight: 300; margin-top: inherit; margin-bottom: 1rem;
+}
+h6 {
+	color: rgb(51, 51, 51); line-height: 1.25; font-family: "Fira", sans-serif; font-size: 1.6rem; font-weight: 300; margin-top: inherit; margin-bottom: 1rem;
+}
+h7 {
+	color: rgb(51, 51, 51); line-height: 1.25; font-family: "Fira", sans-serif; font-size: 1.6rem; font-weight: 300; margin-top: inherit; margin-bottom: 1rem;
+}
+h8 {
+	color: rgb(51, 51, 51); line-height: 1.25; font-family: "Fira", sans-serif; font-size: 1.6rem; font-weight: 300; margin-top: inherit; margin-bottom: 1rem;
+}
+h3 {
+	border-top-color: black; border-top-width: 1px; border-top-style: solid;
+}
+h4 {
+	border-top-color: black; border-top-width: 1px; border-top-style: solid;
+}
+h5 {
+	border-top-color: black; border-top-width: 1px; border-top-style: solid;
+}
+h6 {
+	border-top-color: black; border-top-width: 1px; border-top-style: solid;
+}
+h7 {
+	border-top-color: black; border-top-width: 1px; border-top-style: solid;
+}
+h8 {
+	border-top-color: black; border-top-width: 1px; border-top-style: solid;
+}
+h2 {
+	top: 6px; width: 90%; line-height: 1.2; font-family: "Cooper-Hewitt"; font-size: 2.3rem; font-weight: bold; margin-top: 4rem; position: relative;
+}
+h3 {
+	padding-top: 0.1em; margin-top: 2em; margin-bottom: 0.75em;
+}
+h4 {
+	padding-top: 0.1em; margin-top: 2em; margin-bottom: 0.75em;
+}
+h5 {
+	padding-top: 0.1em; margin-top: 2em; margin-bottom: 0.75em;
+}
+h6 {
+	padding-top: 0.1em; margin-top: 2em; margin-bottom: 0.75em;
+}
+h7 {
+	padding-top: 0.1em; margin-top: 2em; margin-bottom: 0.75em;
+}
+h8 {
+	padding-top: 0.1em; margin-top: 2em; margin-bottom: 0.75em;
+}
+body {
+	color: black; background-color: white;
+}
+.maincolumn {
+	margin: 4rem 2rem 10rem 17rem; width: auto; min-width: 370px; max-width: 700px;
+}
+a {
+	text-decoration: inherit;
+}
+a {
+	color: rgb(0, 119, 170);
+}
+.toclink {
+	color: rgb(0, 119, 170);
+}
+.toptoclink {
+	color: rgb(0, 119, 170);
+}
+.tocviewlink {
+	color: rgb(0, 119, 170);
+}
+.tocviewselflink {
+	color: rgb(0, 119, 170);
+}
+.tocviewtoggle {
+	color: rgb(0, 119, 170);
+}
+.plainlink {
+	color: rgb(0, 119, 170);
+}
+.techinside {
+	color: rgb(0, 119, 170);
+}
+.techoutside:hover {
+	color: rgb(0, 119, 170);
+}
+.techinside:hover {
+	color: rgb(0, 119, 170);
+}
+a:hover {
+	text-decoration: underline;
+}
+.navsettop {
+	padding: 0px; left: 0px; width: 15rem; height: 6rem; font-family: "Fira", sans-serif; font-size: 0.9rem; border-bottom-color: hsl(217, 15%, 70%); border-bottom-width: 0px; border-bottom-style: solid; background-color: inherit;
+}
+.navsetbottom {
+	padding: 0px; left: 0px; width: 15rem; height: 6rem; font-family: "Fira", sans-serif; font-size: 0.9rem; border-bottom-color: hsl(217, 15%, 70%); border-bottom-width: 0px; border-bottom-style: solid; background-color: inherit;
+}
+.navsettop {
+	left: 0px; top: 0px; margin-bottom: 0px; border-bottom-color: currentColor; border-bottom-width: 0px; border-bottom-style: none; position: absolute;
+}
+.navsettop a {
+	color: black;
+}
+.navsetbottom a {
+	color: black;
+}
+.navsettop a:hover {
+	background: hsl(216, 77%, 95%); text-decoration: none;
+}
+.navsetbottom a:hover {
+	background: hsl(216, 77%, 95%); text-decoration: none;
+}
+.navleft {
+	margin: 0px; float: none; white-space: normal; position: static;
+}
+.navright {
+	margin: 0px; float: none; white-space: normal; position: static;
+}
+.navleft a {
+	display: inline-block;
+}
+.navright a {
+	text-align: center; display: inline-block;
+}
+.navleft a {
+	padding: 0.5rem; display: inline-block; min-width: 1rem;
+}
+.navright a {
+	padding: 0.5rem; display: inline-block; min-width: 1rem;
+}
+.navright span {
+	padding: 0.5rem; display: inline-block; min-width: 1rem;
+}
+.navright {
+	height: 2rem; white-space: nowrap;
+}
+.navsetbottom {
+	display: none;
+}
+.nonavigation {
+	color: rgb(136, 136, 153);
+}
+.searchform {
+	margin: 0px; padding: 0px; height: 4rem; border-bottom-color: rgb(238, 238, 238); border-bottom-width: 1px; border-bottom-style: solid; display: block;
+}
+.nosearchform {
+	margin: 0px; padding: 0px; height: 4rem;
+}
+.searchbox {
+	margin: 1rem; padding: 0.25rem 0.4rem; width: 12rem; font-family: "Fira-Mono", monospace; font-size: 0.9rem; vertical-align: middle; background-color: white;
+}
+#search_box {
+	padding: 0.25rem 0.3rem; font-family: "Fira-Mono", monospace; font-size: 1rem;
+}
+.plt_global_only {
+	display: none;
+}
+.plt_local_only {
+	display: block;
+}
+.versionbox {
+	margin: 0px; left: 17rem; top: 0.25rem; width: inherit; height: 2em; font-size: 70%; font-weight: lighter; float: none; position: absolute; z-index: 11000;
+}
+.version {
+	font-size: inherit;
+}
+.versionNoNav {
+	font-size: inherit;
+}
+.version::before {
+	content: "v.";
+}
+.versionNoNav::before {
+	content: "v.";
+}
+.refpara {
+	margin: 0px; width: auto; height: auto; float: none; position: static;
+}
+.refelem {
+	margin: 0px; width: auto; height: auto; float: none; position: static;
+}
+.refcolumn {
+	background: hsl(60, 29%, 94%); border-width: 1px 1px 1px 0.4rem; border-style: solid; border-color: rgb(204, 204, 187); margin: 2rem; padding: 0.5em 1em 0.5em 0.75em; border-image: none; width: auto; font-size: inherit; display: block; position: static;
+}
+@media all and (max-width:1340px)
+{
+span.refcolumn {
+	width: 50%; margin-top: 1.2rem; margin-bottom: 0.8rem; margin-left: 1rem; float: right;
+}
+}
+.refcontent {
+	margin: 0px; line-height: 1.5;
+}
+.refcontent p {
+	margin: 0px; line-height: 1.5;
+}
+.refcontent p + p {
+	margin-top: 1em;
+}
+.refcontent a {
+	font-weight: 400;
+}
+.refpara {
+	top: -1em;
+}
+.refparaleft {
+	top: -1em;
+}
+@media all and (max-width:600px)
+{
+.refcolumn {
+	margin-right: 0px; margin-left: 0px;
+}
+}
+@media all and (min-width:1340px)
+{
+.refcolumn {
+	margin: 0px -22.5rem 1rem 0px; width: 18rem; clear: right; float: right;
+}
+}
+.refcontent {
+	margin: 0px; line-height: 1.6; font-family: "Fira", sans-serif; font-size: 1rem;
+}
+.refparaleft {
+	margin: 0em 0em 0em -13em; width: 13em; height: 0em; right: 2em; float: left; position: relative;
+}
+.refelemleft {
+	margin: 0em 0em 0em -13em; width: 13em; height: 0em; right: 2em; float: left; position: relative;
+}
+.refcolumnleft {
+	margin: 0px; border: 0.5em solid hsl(60, 29%, 94%); border-image: none; width: 13em; font-size: 85%; display: block; position: relative; background-color: hsl(60, 29%, 94%);
+}
+.tocset {
+	margin: 0px; padding: 7rem 0.5rem 0.5rem; left: 0px; top: 0rem; width: 14rem; float: none; position: absolute; background-color: hsl(217, 15%, 70%);
+}
+.tocset td {
+	line-height: 1.1; padding-bottom: 0.4rem; padding-left: 0.2rem; font-family: "Fira", sans-serif; vertical-align: text-top;
+}
+.tocset td a {
+	color: black; font-weight: 400;
+}
+.tocview {
+	text-align: left; background-color: inherit;
+}
+.tocview td {
+	line-height: 1.3;
+}
+.tocsub td {
+	line-height: 1.3;
+}
+.tocview table {
+	width: 90%;
+}
+.tocsub table {
+	width: 90%;
+}
+.tocset td a.tocviewselflink {
+	color: white; font-size: 110%; font-weight: lighter;
+}
+.tocviewselflink {
+	text-decoration: none;
+}
+.tocsub {
+	text-align: left; margin-top: 0.5em; background-color: inherit;
+}
+.tocviewlist {
+	padding-top: 0.2em; padding-bottom: 0.2em; margin-right: 0.2em; margin-left: 0.2em;
+}
+.tocsublist {
+	padding-top: 0.2em; padding-bottom: 0.2em; margin-right: 0.2em; margin-left: 0.2em;
+}
+.tocviewlist table {
+	font-size: 82%;
+}
+.tocviewlisttopspace {
+	margin-bottom: 1em;
+}
+.tocviewsublist {
+	padding-left: 0.8em; margin-left: 0.4em; border-left-color: rgb(153, 153, 170); border-left-width: 1px; border-left-style: solid;
+}
+.tocviewsublistonly {
+	padding-left: 0.8em; margin-left: 0.4em; border-left-color: rgb(153, 153, 170); border-left-width: 1px; border-left-style: solid;
+}
+.tocviewsublisttop {
+	padding-left: 0.8em; margin-left: 0.4em; border-left-color: rgb(153, 153, 170); border-left-width: 1px; border-left-style: solid;
+}
+.tocviewsublistbottom {
+	padding-left: 0.8em; margin-left: 0.4em; border-left-color: rgb(153, 153, 170); border-left-width: 1px; border-left-style: solid;
+}
+.tocviewsublist {
+	margin-bottom: 1em;
+}
+.tocviewsublist table {
+	font-size: 1rem;
+}
+.tocviewsublistonly table {
+	font-size: 1rem;
+}
+.tocviewsublisttop table {
+	font-size: 1rem;
+}
+.tocviewsublistbottom table {
+	font-size: 1rem;
+}
+table.tocsublist {
+	font-size: 1rem;
+}
+.tocviewsublist td {
+	font-size: 90%;
+}
+.tocviewsublistbottom td {
+	font-size: 90%;
+}
+.tocviewsublisttop td {
+	font-size: 90%;
+}
+.tocsub td {
+	font-size: 90%;
+}
+.tocviewsublistonly td {
+	font-size: 90%;
+}
+.tocviewsublist td .stt {
+	font-size: 95%;
+}
+.tocviewsublistbottom td .stt {
+	font-size: 95%;
+}
+.tocviewsublisttop td .stt {
+	font-size: 95%;
+}
+.tocsub td .stt {
+	font-size: 95%;
+}
+.tocviewsublistonly td .stt {
+	font-size: 95%;
+}
+.tocviewtoggle {
+	font-size: 75%;
+}
+.tocsublist td {
+	text-indent: 0px; padding-top: 0.25rem; padding-left: 0.5rem;
+}
+.tocsublinknumber {
+	font-size: 100%;
+}
+.tocsublink {
+	font-size: 82%; text-decoration: none;
+}
+.tocsubseclink {
+	font-size: 100%; text-decoration: none;
+}
+.tocsubnonseclink {
+	padding-left: 0px; font-size: 82%; text-decoration: none; margin-left: 1rem; display: inline-block;
+}
+.tocsubtitle {
+	margin: 0.5em; text-transform: uppercase; letter-spacing: 2px; font-family: "Fira", sans-serif; font-size: 62%; font-style: normal; font-weight: bolder; display: block;
+}
+.toptoclink {
+	font-size: 110%; font-weight: bold; margin-top: 1.5rem; margin-bottom: 0.5rem; display: inline-block;
+}
+.toclink {
+	font-size: inherit;
+}
+.indexlink {
+	text-decoration: none;
+}
+pre {
+	margin-left: 2em;
+}
+blockquote {
+	margin-right: 2em; margin-bottom: 1em; margin-left: 2em;
+}
+.SCodeFlow {
+	margin: 1em 2em 1em 0em; line-height: 1.5; padding-right: 1em; padding-left: 1em; border-left-color: black; border-left-width: 1px; border-left-style: dotted; white-space: nowrap;
+}
+.SCodeFlow img {
+	margin-top: 0.5em; margin-bottom: 0.5em;
+}
+.SCodeFlow td {
+	padding-bottom: 1px;
+}
+.boxed {
+	background: linear-gradient(to left bottom, hsl(0, 0%, 99%) 0%, hsl(214, 62%, 95%) 100%); margin: 2em 0px 0px; padding: 0.3em 0.25em 0.4em; border-top-color: rgb(153, 153, 187); border-top-width: 1px; border-top-style: solid; box-sizing: border-box;
+}
+blockquote > blockquote.SVInsetFlow {
+	margin-top: 0em;
+}
+.leftindent .SVInsetFlow {
+	margin-top: 1em; margin-bottom: 1em;
+}
+.SVInsetFlow a {
+	color: rgb(0, 119, 170);
+}
+.SCodeFlow a {
+	color: rgb(0, 119, 170);
+}
+.SubFlow {
+	margin: 0em; display: block;
+}
+.boxed {
+	width: 100%; background-color: inherit;
+}
+.techoutside {
+	text-decoration: none;
+}
+.SAuthorListBox {
+	width: 30rem; height: auto; font-family: "Fira", sans-serif; font-size: 110%; font-weight: 300; margin-top: 1rem; margin-bottom: 2rem; float: none; position: static;
+}
+.author > a {
+	color: inherit; font-weight: inherit;
+}
+.SAuthorList {
+	font-size: 82%;
+}
+.SAuthorList::before {
+	content: "by ";
+}
+.author {
+	display: inline; white-space: nowrap;
+}
+@media print
+{
+.tocset {
+	display: none;
+}
+.navsettop {
+	display: none;
+}
+.navsetbottom {
+	display: none;
+}
+.maincolumn {
+	width: auto; margin-right: 13em; margin-left: 0px;
+}
+}
